@@ -1,10 +1,10 @@
-name: manual
+name: Manual
 on: 
   workflow_dispatch:
     inputs:
       greeting:
         type: string
-        default: hello
+        default: taketake
         required: true
         description: test
 
