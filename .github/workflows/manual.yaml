@@ -9,7 +9,7 @@ on:
         description: test
 
 jobs:
-  hello:
+  run:
     runs-on: ubuntu-latest
     steps:
       - run: echo "{{ inputs.greeting }}"
